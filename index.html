@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>👊 보스 몬스터 잡기</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>👊 보스 몬스터 잡기</h1>
+      <section id="input-section">
+        <form>
+        <h3>🖋️ 플레이어 이름 입력</h3>
+        <input id="name-input" />
+        <h3>👹 보스 몬스터 HP 입력</h2>
+        <input id="boss-status-input" />
+        <h3>😀 플레이어 HP, MP 입력(,로 구분)</h3>
+        <input id="player-status-input" />
+        <div>
+          <button id="start-raid-button">레이드 시작!</button>
+        </div>
+        <form>
+      </section>
+      <table class="result">
+        <tr>
+          <td >BOSS HP</td>
+          <td colspan="3"></td>
+          <td style="text-align: end;" colspan="2">❤️ [300/300]</td>
+        </tr>
+        <tr>
+          <td colspan="5">
+            <pre id="boss-shape">
+                     ^-^
+                   / 0 0 \
+                  (   "   )
+                   \  -  /
+                    - ^ -</pre>
+          </td>
+        </tr>
+        <tr>
+          <td id="player-name">사용자 이름</td>
+          <td>HP</td>
+          <td id="player-hp">❤️ [100/100]</td>
+          <td>MP</td>
+          <td id="player-mp">💙 [50/50]</td>
+        </tr>
+      </table>
+      <div class="command">
+        <button type="button" id="physical-attack">⚔️ 물리 공격</button>
+        <button type="button" id="magic-attack">🪄 마법 공격</button>
+      </div>
+    </div>
+    <script type="module" src="src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "javascript-boss-monster",
+  "version": "1.0.0",
+  "description": "보스 몬스터 잡기 게임 미션을 위한 저장소",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2023baton/javascript-boss-monster.git"
+  },
+  "author": "2023baton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2023baton/javascript-boss-monster/issues"
+  },
+  "scripts": {
+    "test": "cypress run --browser chrome"
+  },
+  "homepage": "https://github.com/2023baton/javascript-boss-monster#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.1.0"
+  }
+}
