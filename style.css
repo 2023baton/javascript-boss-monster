@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-#input-section form {
+#input-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,14 +31,28 @@
   }
 }
 
+#player-hp,
+#player-mp,
+#boss-hp {
+  min-width: 100px;
+}
+
 #boss-shape {
   padding: 20px 0;
 }
 
 .command {
+  display: flex;
+  justify-content: center;
+  gap:10px;
+  
   margin-top: 10px;
 }
 
 button {
   margin: 10px;
+}
+
+.hide {
+  display: none;
 }
